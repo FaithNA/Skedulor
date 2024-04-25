@@ -1,39 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dashboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <div class="sidebar">
-        <h2>WENDY NDIKUM</h2>
-        <ul>
-            <li><a href="index.html">Dashboard</li></a>
-            <li><a href="lecturer.html">Lecturers</li></a>
-            <li><a href="student.html">Students</a></li>
-            <li><a href="department.html">Departments</li></a>
-        </ul>
-		<hr>
-        <div class="bottom-menu">
-            <ul>
-                <li>Notification</li>
-                <li>Settings</li>
-                <li>Help Support</li>
-            </ul>
-            <button class="logout">Logout</button>
-        </div>
-    </div>
-    <div class="main-content">
-        <h2>Dashboard</h2>
-        <button class="button">Departments</button>
-        <button class="button">Lecturers</button>
-        <button class="button">Courses</button><br><br><br>
-        <button class="button">Students</button>
-        <button class="button">Class/Level</button>
-        <button class="button">Semester</button>
-    </div>
+	<div class="right">
+		<h1>Welcome to</h1>
+		<img src="logo.png" id="logo">
+		<p>Choose your account type</p>
+		<p id="txt">I am a(n)</p>
+		<div class="icons">
+			<a href="lecturer-login.html">
+				<img src="coaching.png" id="icon">
+				<p>Lecturer</p>
+			</a>
+			<a href="student-login.html">
+				<img src="graduate.png" id="icon">
+				<p>Student</p>
+			</a>
+			<a href="admin-login.html">
+				<img src="admin.png" id="icon">
+				<p>Admin</p>
+			</a>
+		</div>
+		<a href="signup.html">New here? Sign up</a>
+	</div>
+	<div class="left">
+		<img src="deadline.png">
+	</div>
+	
 </body>
 </html>
-
